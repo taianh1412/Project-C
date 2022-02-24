@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p,a{
+    font-family: 'Segoe UI';
+}
+.tieude{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 124px;
+    border: solid;
+    background-color: white;
+    position: fixed;
+}
+.title{
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+.title:active{
+    color: red;
+    text-shadow: 3px 0px 2px black;
+}
+
+strong{
+    font-size: 90px;
+}
+.menu{
+    background-color: black;
+    padding: 30px;
+    padding-top: 150px;
+    
+    font-size: 30px;
+    text-align: center;
+    border: solid black;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px;
+    padding: 30px 200px;
+}
+.menu a:hover{
+    background-color: darkgrey;
+    color: white;
+    box-shadow: 0px 0px 10px ghostwhite;
+}
+.menu a:active{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px ghostwhite;
+}
+.menu-cha{
+    display: inline;
+    background-color: yellow;
+}
+.menu-cha img{
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 10px;
+}
+.menu-cha img:hover{
+    background-color: rgb(187, 181, 181);
+}
+.menu-cha:hover .menu-con{
+    display: block;
+}
+.menu-con{
+    margin: 0px;
+    padding: 0px;
+    width: 1675px;
+    height: 0px;
+    border: solid;
+    background-color: rgb(90, 86, 86);
+    display: none;
+}
+.list{
+    border: solid black;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: none;
+    padding: 50px;
+    margin: 0px 0px;
+    display: block;
+    color: black;
+    font-family: 'Segoe UI';
+}
+.list:hover{
+    color: red;
+    text-shadow: 0px 0px 1px ghostwhite;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+.ten-rap{
+    background-color: black;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+.rap a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px 0px 20px;
+    background-color: white;
+    border-radius: 0px;
+    display: block;
+    border: 1px solid black;
+}
+.rap a:hover{
+    border: 1px solid black;
+    background-color: red;
+    color: ghostwhite;
+}
+.chon-rap:hover{
+    background-color: ghostwhite;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+footer p{
+    font-size: 30px;
+    color: white;
+}

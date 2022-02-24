@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p,a{
+    font-family: 'Segoe UI';
+}
+.tieude{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 124px;
+    border: solid;
+    background-color: white;
+    position: fixed;
+}
+.title{
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+.title:active{
+    color: red;
+    text-shadow: 3px 0px 2px black;
+}
+
+strong{
+    font-size: 90px;
+}
+.menu{
+    background-color: black;
+    padding: 30px;
+    padding-top: 150px;
+    
+    font-size: 30px;
+    text-align: center;
+    border: solid black;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px;
+    padding: 30px 200px;
+}
+.menu a:hover{
+    background-color: darkgrey;
+    color: white;
+    box-shadow: 0px 0px 10px ghostwhite;
+}
+.menu a:active{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px ghostwhite;
+}
+.menu-cha{
+    display: inline;
+    background-color: yellow;
+}
+.menu-cha img{
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 10px;
+}
+.menu-cha img:hover{
+    background-color: rgb(187, 181, 181);
+}
+.menu-cha:hover .menu-con{
+    display: block;
+}
+.menu-con{
+    margin: 0px;
+    padding: 0px;
+    width: 1675px;
+    height: 0px;
+    border: solid;
+    background-color: rgb(90, 86, 86);
+    display: none;
+}
+
+
+.list{
+    border: solid black;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: none;
+    padding: 50px;
+    margin: 0px 0px;
+    display: block;
+    color: black;
+    font-family: 'Segoe UI';
+}
+.list:hover{
+    color: red;
+    text-shadow: 0px 0px 1px ghostwhite;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+.phim img{
+    float: left;
+    margin-left: 29px;
+    margin-top: 10px;
+    border: solid black;
+}
+.tieudephim{
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.chuthich{
+    font-size: 20px;
+    margin-right: 310px;
+    margin-left: 350px;
+    margin-top: 10px;
+    color: gray;
+    text-decoration: none;
+    display: block;
+    
+}
+sup{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.phim{
+    padding-top: 130px;
+    background-color: black;
+    padding-bottom: 240px;
+}
+.phim p{
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 20px;
+    color: white;
+}
+.dien-vien{
+    padding: 10px 15px 10px 15px;
+    display: block;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+.danhsachdienvien{
+    float: right;
+}
+.trailer{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+footer p{
+    font-size: 30px;
+    color: white;
+}
